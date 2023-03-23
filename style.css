@@ -1,0 +1,83 @@
+@charset "uft-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins',sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("https://cutewallpaper.org/27/can-you-use-a-gif-as-wallpaper-google-pixel/8-cool-pixel-art-gifs-and-how-to-make-gifs-with-pixel-art-style.gif");
+    text-align: center;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+}
+
+.cronometro button{
+    width: calc(25% - 12px);
+    height: 50px;
+    font-size: 18px;
+    margin: 10px 22px;
+    border: none;
+    float: left;
+    border-radius: 5px;
+    font-weight: 588;
+    background-color: #615375c7;
+    box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.664);
+}
+
+button:active{
+    transform: scale(1.1);
+    box-shadow: 5px 0 1px rgba(0, 0, 0, 0.664);
+}
+
+.cronometro{
+    max-width: 500px;
+    background-color: #dc637788 ;
+    border-radius: 13px;
+    padding: 18px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.37);
+}
+.cronometro h1{
+    font-size: 3em;
+    margin-top: 10px;
+    letter-spacing: 10px;
+    color: #cf3266;
+    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.795);
+}
+.cronometro span{
+    color: #0a0c0dec;
+    font-size: 40px;
+    font-weight: 600;
+    text-shadow: 2px 1px 1px #f1c2cd;
+    
+}
+
+.cronometro p {
+    font-size: 1.8em;
+    color: rgb(224, 224, 187);
+
+}
+
+footer {
+    display: block;
+    position: fixed;
+    width: 100%;
+    bottom: 0vh;
+    left: 0;
+    text-align: center;
+    background-color: #c48b83;
+    padding: 5px;
+    font-weight: 600;
+    color: #ecf5f3;
+}
